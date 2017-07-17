@@ -3,7 +3,6 @@ import string
 import csv
 import re
 
-from pprint import pprint
 from bs4 import BeautifulSoup
 
 WEBSITE = 'http://www.springfieldspringfield.co.uk/'
