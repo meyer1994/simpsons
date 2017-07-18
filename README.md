@@ -14,3 +14,6 @@ I used this website because of it's simplicity and easy to maniupalte HTML pages
 
 Here is a simple graph that I made with the data. It contains the Top 50 most used words. I've made it by importing the [total_count](total_count.csv) to Google Drive, sorting and selecting the top 50 for a simple histogram.
 ![Plot](top50.png)
+
+This is a second graph in which I have filtered stop words that I got from [Lextek](http://www.lextek.com/manuals/onix/stopwords1.html).
+![Plot(filtered)](top50_filter.png)
