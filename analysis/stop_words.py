@@ -1,8 +1,12 @@
 import csv
 
+'''
+This file is just to filter out the stop words.
+'''
+
 # get stop words
 # list copied from here: http://www.lextek.com/manuals/onix/stopwords1.html
-with open('stopwords.txt', 'r') as stop_file:
+with open('stopwords_list.txt', 'r') as stop_file:
     stop_words = stop_file.read()
     stop_words = stop_words.split('\n')
 
